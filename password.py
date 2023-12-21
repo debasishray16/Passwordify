@@ -34,7 +34,7 @@ def clipper():
     
 
 # Label Frame
-lf=LabelFrame(root, text="How many Character?",fg="white",bg="grey")
+lf=LabelFrame(root, text="Enter your password length :",fg="black",bg="lightgrey")
 lf.pack(pady=20)
 
 
@@ -58,7 +58,7 @@ my_button.grid(row=0,column=0,padx=10)
 
 
 clip_button = Button(my_frame, text="Copy to Clipboard",
-        command=clipper, width=25, height=2, bg="orange", fg="white")
+        command=clipper, width=25, height=2, bg="violet", fg="white")
 clip_button.grid(row=0, column=1, padx=10)
 
 
